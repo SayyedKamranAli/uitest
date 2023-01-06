@@ -1,0 +1,17 @@
+.bgImg{
+    padding: 40px;
+    text-align: center;
+    
+    background-color: #254a5d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.contact{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 41px;
+}

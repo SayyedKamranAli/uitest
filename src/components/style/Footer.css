@@ -1,0 +1,18 @@
+.copyright {
+    float: left;
+  }
+  .row1{
+    height: 75px;
+    background-color: #a38e8e1f;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.bg-img{
+    background: url("./braided-gradient-coloured-fabric-background_23-2148608673.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
