@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ui-design/static/css/main.dc6cc061.css",
+    "main.js": "/ui-design/static/js/main.161f8e63.js",
+    "static/js/787.cbd003da.chunk.js": "/ui-design/static/js/787.cbd003da.chunk.js",
+    "static/media/about-part-1.png": "/ui-design/static/media/about-part-1.8548988a8a509346ab67.png",
+    "static/media/home.jpg": "/ui-design/static/media/home.b2e2d8b41afa1d7f820a.jpg",
+    "static/media/team-2.jpg": "/ui-design/static/media/team-2.b2008acdf74612d89b8f.jpg",
+    "static/media/team-1.jpg": "/ui-design/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/team-3.jpg": "/ui-design/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/braided-gradient-coloured-fabric-background_23-2148608673.webp": "/ui-design/static/media/braided-gradient-coloured-fabric-background_23-2148608673.ba674d45e89b57a85a94.webp",
+    "static/media/team-4.jpg": "/ui-design/static/media/team-4.525dee063b26d6a44d1d.jpg",
+    "static/media/1.png": "/ui-design/static/media/1.38fe3a09827d017d4210.png",
+    "static/media/6.png": "/ui-design/static/media/6.676f0e14de02eb0bc14d.png",
+    "index.html": "/ui-design/index.html",
+    "main.dc6cc061.css.map": "/ui-design/static/css/main.dc6cc061.css.map",
+    "main.161f8e63.js.map": "/ui-design/static/js/main.161f8e63.js.map",
+    "787.cbd003da.chunk.js.map": "/ui-design/static/js/787.cbd003da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc6cc061.css",
+    "static/js/main.161f8e63.js"
+  ]
+}
