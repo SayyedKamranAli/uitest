@@ -3,7 +3,37 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 385px;
+   
 }
+.imnew{
+  position: relative;
+  z-index: -1;
+   margin-top: 5em;
+   /* margin-bottom: 5em; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    filter: blur(2px);
+    width: 100%;
+    background: #000000;
+    opacity: .9;
+}
+.dev{
+  position: relative;
+    z-index: -1;
+    top: 16px;
+    color: #200707;
+    left: -7em;
+    font-size: 60px;
+}
+/* .dev1{
+  position: relative;
+    z-index: -1;
+    top: -28px;
+    color: #fbfdff;
+    left: -53%;
+    font-size: 25px;
+} */
 .anim{
     animation-name: example;
   animation-duration: 20s;
@@ -17,7 +47,7 @@
     100% {background-color:rgb(255, 185, 185); left:0px; top:0px;}
   }
 .sticky{
-    background-color: #b2d4ffe0;
+    background-color: #ffffff;
     
 }
 .main-stivky{
@@ -54,3 +84,4 @@
   #myBtn:hover {
     background-color: #555;
   }
+  

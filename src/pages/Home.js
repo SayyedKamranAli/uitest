@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import home from "../pages/pages_style/Home.css";
 import Logo from "./logo-dark2.png";
 import img from "./about-part-1.png";
 import Header from "../components/Header";
 import * as Icon from 'react-bootstrap-icons';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import img1 from './img/home.jpg'
+import img2 from './img/bg_1.jpg.webp'
+import img3 from './img/bg_2.jpg.webp'
 import Team from './Team';
 import Contact from '../pages/Contact';
 import Services from "./Services";
+import Carousel from 'react-bootstrap/Carousel';
+import Counter from "../components/Counter";
 function Home() {
     const now = 92;
     const now1 = 80;
@@ -33,9 +38,60 @@ const scrollFunction=()=> {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const [index, setIndex] = useState(0);
+
+const handleSelect = (selectedIndex, e) => {
+  setIndex(selectedIndex);
+};
   return (
     <div>
      
+     <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+        height={400}
+          className="d-block w-100 imnew"
+          src={img1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h1>Welcome to SkardTech</h1>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        
+        <img
+          className="d-block w-100 imnew"
+          height={400}
+          src={img2}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+        
+          <h1 className="mb-4 dev">We Are The Best 
+          <br/> &nbsp;&nbsp;&nbsp; Software Company</h1>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+        height={400}
+          className="d-block w-100 imnew"
+          src={img3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+ 
           {/* <Navbar sticky="top" className="sticky">
             <Container>
               <Navbar.Brand href="/">
@@ -57,8 +113,8 @@ const scrollFunction=()=> {
           </Navbar> */}
           
        
-      <div className="im mb-5 mt-5"> </div>
-      <div className="container-fluid anim pt-4 pb-4">
+      {/* <div className="im"> </div> */}
+      <div className="container-fluid  pt-4 pb-4">
       <div className="row ">
         <div className="col-md-1"></div>
         <div className="col-md-4 ">
@@ -96,8 +152,10 @@ const scrollFunction=()=> {
       
       </div>
       <button onClick={topFunction} id="myBtn" title="Go to top"><i style={{position:'relative',bottom:'5px'}}><Icon.ArrowUpCircle /></i></button>
+      
       <Team/>
       <Services/>
+      <Counter/>
       <Contact/>
 
     </div>
