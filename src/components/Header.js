@@ -40,7 +40,7 @@ var currentScrollPos = window.pageYOffset;
      <div></div>
 <Navbar  sticky="top" className="sticky" style={{height:'5em'}}>
             <Container>
-              <Navbar.Brand href="/">
+              <Navbar.Brand href="/uitest">
                 <div>
                   <img src={Logo} alt="logo" />
                 </div>
@@ -54,11 +54,11 @@ var currentScrollPos = window.pageYOffset;
                 
           
           <Nav className="me-auto text-end">
-          <Navbar.Brand href="/"><strong>Home</strong></Navbar.Brand>
-            <Nav.Link href="/team"><strong>Team</strong></Nav.Link>
-            <Nav.Link href="/blogs"><strong>Blogs</strong></Nav.Link>
-            <Nav.Link href="/services"><strong>Services</strong></Nav.Link>
-            <Nav.Link href="/contact"><strong>Contact</strong></Nav.Link>
+          <Navbar.Brand href="/uitest"><strong>Home</strong></Navbar.Brand>
+            <Nav.Link href="/uitest/team"><strong>Team</strong></Nav.Link>
+            <Nav.Link href="/uitest/blogs"><strong>Blogs</strong></Nav.Link>
+            <Nav.Link href="/uitest/services"><strong>Services</strong></Nav.Link>
+            <Nav.Link href="/uitest/contact"><strong>Contact</strong></Nav.Link>
           </Nav>
 
         
