@@ -5,7 +5,7 @@ import img from "./about-part-1.png";
 import Header from "../components/Header";
 import * as Icon from 'react-bootstrap-icons';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import img1 from './img/home.jpg'
+import img1 from './img/slide.jpg'
 import img2 from './img/bg_1.jpg.webp'
 import img3 from './img/bg_2.jpg.webp'
 import Team from './Team';
@@ -48,36 +48,34 @@ const handleSelect = (selectedIndex, e) => {
     <div>
      
      <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
-        height={400}
+        
           className="d-block w-100 imnew"
           src={img1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>Welcome to SkardTech</h1>
+          <h1 style={{color: "#200707"}}>Welcome to SkardTech</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         
         <img
           className="d-block w-100 imnew"
-          height={400}
           src={img2}
           alt="Second slide"
         />
 
         <Carousel.Caption>
         
-          <h1 className="mb-4 dev">We Are The Best 
+          <h1 className="mb-4 "style={{color: "#200707"}}>The Best 
           <br/> &nbsp;&nbsp;&nbsp; Software Company</h1>
           
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        height={400}
           className="d-block w-100 imnew"
           src={img3}
           alt="Third slide"
